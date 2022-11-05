@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T08:06:37.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XtSvIDorsDTuXMfDsVI7" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T08:12:34.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZnKr96kLVbp3tYoBaqUf" version="20.5.0" type="github">
   <diagram id="Dx6WQnxCv--RNV2YaCjC" name="Page-1">
     <mxGraphModel dx="1261" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
             <mxGeometry x="120" y="242.5" width="80" height="125" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="0NXdwLCMXKkdyYBk7in0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NXdwLCMXKkdyYBk7in0-14" target="0NXdwLCMXKkdyYBk7in0-23">
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NXdwLCMXKkdyYBk7in0-14" target="0NXdwLCMXKkdyYBk7in0-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0NXdwLCMXKkdyYBk7in0-14" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;" vertex="1" parent="1">
@@ -53,9 +53,36 @@
         <mxCell id="0NXdwLCMXKkdyYBk7in0-22" value="多张RAW图像的均值图像" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="337.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0NXdwLCMXKkdyYBk7in0-23" value="将均值图像与快门时刻的RAW图像进行比对" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="610" y="282.5" width="160" height="45" as="geometry" />
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="0NXdwLCMXKkdyYBk7in0-26" target="0NXdwLCMXKkdyYBk7in0-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0NXdwLCMXKkdyYBk7in0-29">
+          <mxGeometry x="-0.3078" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-26" value="该区域&lt;br&gt;均值图像与快门图像&lt;br&gt;接近" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-28" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NXdwLCMXKkdyYBk7in0-31" target="0NXdwLCMXKkdyYBk7in0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NXdwLCMXKkdyYBk7in0-31" value="将均值图像与快门时刻的RAW图像进行&lt;br&gt;各区域比对" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="快门时刻附近的RAW图像" placeholders="1" name="Variable" id="0NXdwLCMXKkdyYBk7in0-34">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="250" y="172.5" width="80" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="快门时刻附近的RAW图像" placeholders="1" name="Variable" id="0NXdwLCMXKkdyYBk7in0-35">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="250" y="402.5" width="80" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
