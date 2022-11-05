@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T01:18:31.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Ggqn5kJoIl4g4_TmbKrX" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T01:22:42.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zLRHEM1uGJz1umY6ocdT" version="20.5.0" type="github">
   <diagram id="b3NNw9gS_PiMKbdr5lyS" name="第 1 页">
-    <mxGraphModel dx="1773" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1814" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,9 @@
         <mxCell id="jwnvcLF7p6ejDBhL88od-36" value="Trees" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="jwnvcLF7p6ejDBhL88od-37">
           <mxGeometry x="20" y="20" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="jwnvcLF7p6ejDBhL88od-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jwnvcLF7p6ejDBhL88od-38" target="jwnvcLF7p6ejDBhL88od-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jwnvcLF7p6ejDBhL88od-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="965.9" width="160" height="130" as="geometry" />
         </mxCell>
@@ -149,6 +152,15 @@
         </mxCell>
         <mxCell id="jwnvcLF7p6ejDBhL88od-44" value="将降噪图像和原图求差，&lt;br&gt;获取噪声分布" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-640" y="1090.9" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jwnvcLF7p6ejDBhL88od-48" value="原始图像" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagGrid;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="1000.9" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jwnvcLF7p6ejDBhL88od-50" value="去噪图像" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1000.9" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jwnvcLF7p6ejDBhL88od-51" value="" style="line;strokeWidth=2;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1025.9" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
