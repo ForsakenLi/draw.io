@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T12:43:02.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EZWSP78ho7Akwt6zGRnY" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T12:45:38.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TMw6c-30j0xT0BXd4Q43" version="20.5.2" type="github">
   <diagram id="JsTCVBs2s0rYQZCpeuup" name="Page-1">
     <mxGraphModel dx="542" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,6 +129,18 @@
         </mxCell>
         <mxCell id="VcMnWwyvt8n1EcB4j0yQ-55" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
           <mxGeometry x="511.25" y="80" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VcMnWwyvt8n1EcB4j0yQ-56" value="图像上传" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="174.38" y="100" width="61.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VcMnWwyvt8n1EcB4j0yQ-57" value="任务流程管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294.37" y="100" width="61.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VcMnWwyvt8n1EcB4j0yQ-58" value="源取证&lt;br&gt;结果分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.18" y="100" width="65.63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VcMnWwyvt8n1EcB4j0yQ-59" value="历史任务管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535.62" y="100" width="61.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
