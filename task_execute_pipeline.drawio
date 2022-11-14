@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T14:51:00.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="enN4ZYsoKMQgPUXAM5Xo" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T14:59:04.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_ChvNLlWK7QyHTEaF5SN" version="20.5.2" type="github">
   <diagram id="a5nzT7AogOPYCZvjCDO6" name="Page-1">
     <mxGraphModel dx="786" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="540" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOhvKKTnWKLQtLBGfxcZ-10" target="hOhvKKTnWKLQtLBGfxcZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="140" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="hOhvKKTnWKLQtLBGfxcZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOhvKKTnWKLQtLBGfxcZ-1" target="hOhvKKTnWKLQtLBGfxcZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -16,8 +25,29 @@
         <mxCell id="hOhvKKTnWKLQtLBGfxcZ-2" value="创建任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-6" value="任务管理模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="230" width="440" height="60" as="geometry" />
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-6" value="任务管理模块(跟踪任务生成的中间产物确定进度)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-8" value="图像分割任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-11" value="并发执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-12" value="图像GLCM&lt;br&gt;特征生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-13" value="图像去噪过程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOhvKKTnWKLQtLBGfxcZ-14" target="hOhvKKTnWKLQtLBGfxcZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-14" value="图像特征文件生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOhvKKTnWKLQtLBGfxcZ-18" value="决策树推理分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
